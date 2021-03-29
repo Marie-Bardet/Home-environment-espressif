@@ -120,20 +120,6 @@ void app_main()
         }
 
         
-        /*from bme680
-        bme680_get_sensor_data(&bme_data, &bme);
-        sprintf(value_temp_bme, "%d", bme_data.temperature);
-        sprintf(value_hum_bme, "%d", bme_data.humidity);
-        sprintf(value_pressure_bme, "%d", bme_data.pressure);
-        sprintf(value_gas_bme, "%d", bme_data.gas_resistance);
-        aio_create_data(value_temp_bme,"envmon.bme-temp");
-        aio_create_data(value_hum_bme,"envmon.bme-hum");
-        aio_create_data(value_pressure_bme,"envmon.bme-pressure");
-        aio_create_data(value_gas_bme,"envmon.bme-gas");
-        mqtt_publish("mb170639/bme/temp",value_temp_bme);
-        mqtt_publish("mb170639/bme/hum",value_hum_bme);
-        mqtt_publish("mb170639/bme/pressure",value_pressure_bme);
-        mqtt_publish("mb170639/bme/gas",value_gas_bme);*/
 
         //from vma
         vma311_data = vma311_get_values();
