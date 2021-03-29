@@ -118,10 +118,6 @@ void app_main()
 
             }
         }
-         printf("bme680hhh:temperature:%s\n", value_temp_bme);
-         printf("bme680hhh:temperature:%s\n", value_hum_bme);
-         printf("bme680hhh:temperature:%s\n", value_pressure_bme);
-         printf("bme680hhh:temperature:%s\n", value_gas_bme);
 
         
         /*from bme680
